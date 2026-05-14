@@ -1,0 +1,90 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="512"
+    height="512"
+    viewBox="0 0 16.933 16.933"
+>
+  <defs>
+    <linearGradient
+            id="bg"
+            x1="8.466"
+            x2="8.466"
+            y1="1.058"
+            y2="15.875"
+            gradientUnits="userSpaceOnUse"
+        >
+      <stop offset="0" stop-color="#323131" />
+      <stop offset="1" stop-color="#141414" />
+    </linearGradient>
+
+    <linearGradient
+            id="shine"
+            x1="2.598"
+            x2="10.583"
+            y1="2.836"
+            y2="11.312"
+            gradientUnits="userSpaceOnUse"
+        >
+      <stop offset="0" stop-color="#fff" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient
+            id="rightFace"
+            x1="9.6"
+            x2="11.4"
+            y1="2.8"
+            y2="14.2"
+            gradientUnits="userSpaceOnUse"
+        >
+      <stop offset="0" stop-color="#3aa0ff" />
+      <stop offset="1" stop-color="#1b5fc9" />
+    </linearGradient>
+
+    <filter id="softBlur" width="1.05" height="1.05" x="-.025" y="-.025">
+      <feGaussianBlur stdDeviation=".07" />
+    </filter>
+  </defs>
+
+  <path
+        fill="url(#bg)"
+        d="M5.36 1.058c-1.53 0-2.577.457-3.26 1.2-.678.74-1.042 1.8-1.042 3v6.416c0 1.2.364 2.261 1.043 3 .682.744 1.73 1.2 3.26 1.2h6.23c1.53 0 2.578-.456 3.26-1.2.679-.739 1.024-1.702 1.024-3V5.5c0-1.57-.345-2.502-1.024-3.242-.682-.743-1.73-1.2-3.26-1.2H6.745z"
+    />
+
+  <g filter="url(#softBlur)" opacity=".35">
+    <path
+            fill="url(#shine)"
+            d="M5.36 1.058c-1.53 0-2.577.457-3.26 1.2-.678.74-1.042 1.8-1.042 3.001v6.415c0 1.2.364 2.26 1.043 3 .682.744 1.73 1.2 3.26 1.2h6.23c1.53 0 2.577-.456 3.26-1.2.678-.739 1.024-1.702 1.024-3V5.5c0-1.57-.346-2.502-1.024-3.242-.683-.743-1.73-1.2-3.26-1.2H6.745zm0 .264h6.232c1.477 0 2.437.432 3.064 1.116.634.69.954 1.53.954 3.062v6.174c0 1.251-.322 2.134-.954 2.822-.627.684-1.587 1.114-3.064 1.114H5.359c-1.477 0-2.437-.43-3.064-1.114-.625-.682-.973-1.675-.973-2.822V5.26c0-1.148.348-2.14.973-2.822.627-.684 1.587-1.116 3.064-1.116"
+        />
+  </g>
+
+  <path
+        d="M9.95 2.85h1.95c1.35 0 2.25.9 2.25 2.3v6.3c0 1.55-.85 2.55-2.4 2.55H9.95c-.85 0-1.32-.55-1.32-1.42V9.45H7.38c-.38 0-.55-.28-.42-.65L8.5 3.75c.18-.58.68-.9 1.45-.9Z"
+        fill="url(#rightFace)"
+        opacity=".95"
+    />
+
+  <path d="M8.63 9.45v3.15" stroke="#7e8b94" stroke-width=".12" opacity=".55" />
+
+  <g fill="#ffffff">
+    <rect x="5.05" y="5.72" width=".28" height="1.28" rx=".14" />
+    <rect x="11.28" y="5.72" width=".28" height="1.28" rx=".14" />
+  </g>
+
+  <path
+        d="M4.45 11.7 L12.49 11.7"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width=".42"
+        stroke-linecap="round"
+    />
+
+  <path
+        d="M4.55 11.7 L12.39 11.7"
+        fill="none"
+        stroke="#fff"
+        stroke-opacity=".16"
+        stroke-width=".13"
+        stroke-linecap="round"
+    />
+</svg>
